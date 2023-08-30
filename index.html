@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Results summary component</title>
+  <link rel="stylesheet" href="style.css"/>
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+	<div class="container">
+	<main>
+		
+		<section class="left">
+			<h3>Your Result</h3>
+			<div class="circle">
+				<span id="final-score"></span>
+				<span id="of-hundred">of 100<span>
+			</div>
+			<span id="great">Great</span>
+			<div class="paragraph">
+				<span>You scored higher than 65% of</span>
+				<span>the people who have taken</span>
+				<span>these tests.</span>
+  			</div>
+		</section>	
+	  
+		<section class="right">	
+		<span id="summary">Summary</span>
+		
+		<div class="sub-right reaction">
+		  <img src="/assets/images/icon-reaction.svg">
+		  <span class="Reaction">Reaction</span>
+			<span class="final"><span class="score"></span> / 100</span>
+		</div>
+		  
+		<div class="sub-right memory">
+		  <img src="/assets/images/icon-memory.svg">
+		  <span class="Memory">Memory</span>
+		  <span class="final"><span class="score"></span> / 100</span>
+		</div>
+		  
+		<div class="sub-right verbal">
+		  <img src="/assets/images/icon-verbal.svg">
+		  <span class="Verbal">Verbal</span>
+		  <span class="final"><span class="score"></span> / 100</span>
+		</div>
+		  
+		<div class="sub-right visual">
+		  <img src="/assets/images/icon-visual.svg">
+			<span class="Visual">Visual</span>
+			<span class="final"><span class="score"></span> / 100</span>
+		</div>
+	
+		<div class="btn">
+		  Continue
+		</div>
+		
+
+		</section>
+	</main>
+	</div>
+	<div class="attribution">
+	Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/ahmed-wally">Ahmed Wally</a>.
+  </div>
+  <script src="script.js" type="module"></script>
+</body>
+</html>
